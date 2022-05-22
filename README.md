@@ -1,5 +1,7 @@
 # spikeResources
 
+VS Code extension: https://marketplace.visualstudio.com/items?itemName=PeterStaev.lego-spikeprime-mindstorms-vscode
+
 Spike Prime cable pin out: https://www.philohome.com/wedo2reverse/connect.htm 
 
 UART comunication: https://www.facebook.com/groups/SPIKEcommunity/posts/1169318340113063/?comment_id=1169596436751920
