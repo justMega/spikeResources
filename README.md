@@ -20,7 +20,7 @@ More info:
  
  CAD softwere:
 - https://grabcad.com/library -> 3d modeli senzorjev, motorjev
-- https://openscad.org/ -> generacija lego modelov
+- https://openscad.org/ -> generacija lego modelov -> primer: https://www.thingiverse.com/thing:4790266/files
 - https://www.autodesk.com/products/fusion-360/personal
 - https://www.youtube.com/c/ProductDesignOnline
 
