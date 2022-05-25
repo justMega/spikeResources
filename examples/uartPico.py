@@ -2,7 +2,12 @@ import board
 import busio
 import time
 
-uart = busio.UART(tx=board.GP0, rx=board.GP1, baudrate = 9600, timeout=0, parity=None, stop=1)
+# definicija uart protokola
+uart = busio.UART(tx=board.GP0, rx=board.GP1, baudrate=9600,
+                  timeout=0, parity=None, stop=1)
+
+# ista funkcija za branje podatkov kot pri Spiku
+
 
 def readFromSpike():
     message_started = False
@@ -30,20 +35,22 @@ def readFromSpike():
                 message_started = True
                 # print(self.message_started)
 
-i=0
-j=5
+
+# primer uporabe
+i = 0
+j = 5
 while 1:
     ident = readFromSpike()
     if ident == "a":
         uart.write(bytes(f"<{i}>", "ascii"))
         print(i)
         time.sleep(0.1)
-        i+=1
-        if i>5:
+        i += 1
+        if i > 5:
             i = 0
     elif ident == "b":
         uart.write(bytes(f"<{j}>", "ascii"))
         time.sleep(0.1)
-        j+=1
-        if j>10:
+        j += 1
+        if j > 10:
             j = 5
