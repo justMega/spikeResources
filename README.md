@@ -27,3 +27,14 @@ More info:
 PCD design:
 - https://www.kicad.org/
 - https://www.youtube.com/c/PhilS94
+
+Other:
+- http://blog.tkjelectronics.dk/2011/06/nxt-motor-shield/
+- http://blog.tkjelectronics.dk/2011/10/nxt-shield-ver2/
+- https://sourceforge.net/p/lejos/wiki/UART%20Sensor%20Protocol/
+- https://www.wayneandlayne.com/bricktronics/downloads/
+- https://www.philohome.com/nxt.htm
+- https://www.wayneandlayne.com/files/bricktronics/megashield/bricktronics_megashield-schematic-v1.01.png
+- https://github.com/StanislavJochman/Arduino_Lego_Sensor
+
+
